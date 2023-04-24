@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Artista {
+public interface Artista {
+    public int ensayar(String disiplina);
+    public boolean presentarObra();
 }
