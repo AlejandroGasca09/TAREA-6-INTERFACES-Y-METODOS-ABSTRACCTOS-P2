@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Deportista {
+public interface Deportista {
+    public abstract int entrenar();
+    public abstract boolean presentarCompetencia(String ubicacion );
 }
+
